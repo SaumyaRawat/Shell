@@ -1,0 +1,15 @@
+To run:
+gcc shell.c
+./a.out
+
+Inbuilt functions that have been implemented:
+history: shows the names of all executed commands so far
+cd: Default behaviour of cd has been implemented. So if no path is supplied to cd it changes directory to /home/ by default.
+pwd
+echo
+pinfo
+fg
+overkill
+kjobs
+
+On running a ./a.out inside the shell it executes as normal and on quit it has been set to the quit the main terminal as well
